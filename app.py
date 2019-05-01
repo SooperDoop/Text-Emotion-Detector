@@ -22,7 +22,7 @@ def index1():
                            gui=data1[0][3]*100+30,joy=data1[0][5]*100+30,sad=data1[0][6]*100+30,sha=data1[0][7]*100+30)
 
 if __name__ == '__main__':
-    app.run('0.0.0.0',port=5000,debug=True)
+    app.run('0.0.0.0',port=5000)
 #
 #loaded_obj.predict(['hai hello im sad'])[0]
 
