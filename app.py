@@ -4,7 +4,7 @@ from flask import Flask,render_template,request
 import pickle 
 
 print('Model loading!!!')
-with open(r"C:\Users\Bastian\Downloads\emotion_ISEAR_pickle (1).pickle", 'rb') as f:
+with open(r".\emotion_ISEAR_pickle (1).pickle", 'rb') as f:
     loaded_obj = pickle.load(f)
 print('MOdel loaded!!!')
 
