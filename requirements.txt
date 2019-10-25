@@ -1,4 +1,0 @@
-flask
-gunicorn
-pickle-mixin
-sklearn
